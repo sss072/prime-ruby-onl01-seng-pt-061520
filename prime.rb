@@ -1,4 +1,7 @@
+require pry 
+
 def prime?(integer)
+  binding.pry 
   if integer <= 1 || integer == 0  
     false 
   
